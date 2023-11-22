@@ -1,1 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bda066;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+</Style>
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+}
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li a{
+    color: rgb(253, 253, 253);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+#menu-h  li a:hover {
+    background-color: chocolate;
+}
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #6766bd;
+}
 
